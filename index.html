@@ -7,12 +7,13 @@
 </head>
 <body>
 
-    <div id="content">Hello there</div>
+    <div id="content">Poo</div>
 
-    <!-- <script>
+    <script>
         fetch("temp.txt")
             .then(response => response.text())
             .then(text => {
+                console.log("reached");
                 const paragraph = document.createElement("p");
                 paragraph.textContent = text;
 
@@ -21,7 +22,7 @@
             .catch(error => {
                 console.error("Error reading temp.txt:", error);
             });
-    </script> -->
+    </script>
 
 </body>
 </html>
